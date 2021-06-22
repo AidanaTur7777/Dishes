@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Exam-2</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo"></a>
+      <nav class="header__nav">
+        <a href="#" class="nav__signin">Sign in</a>
+        <a href="#" class="nav__register">Register</a>
+        <a href="#" class="nav__basket"></a>
+      </nav>
+    </header>
+    <section class="banner">
+      <div class="banner__container">
+        <h1 class="container__title">Трактир «Пушкин»</h1>
+        <div class="container__text">
+          <p class="text__left">₽₽₽ • Европейская</p>
+          <p class="text__right">40 - 50 Min</p>
+        </div>
+      </div>
+    </section>
+    <nav class="menu">
+      <a class="menu__item" href="#">Закуски</a>
+      <a class="menu__item" href="#">Салаты</a>
+      <a class="menu__item" href="#">Супы</a>
+      <a class="menu__item" href="#">Горячие блюда</a>
+      <a class="menu__item" href="#">Гарниры</a>
+      <a class="menu__item" href="#">Десерты</a>
+    </nav>
+    <div class="main">
+      <h2 class="main__title">Закуски</h2>
+      <section class="main__catalog">
+        <div class="catalog__card">
+          <div class="card__info">
+            <h3 class="card__title card__title_first">
+              Сельдь на бородинском хлебе
+            </h3>
+            <p class="card__about">С яйцом и огурцом</p>
+            <span class="card__price">240 ₽</span>
+          </div>
+          <img class="card__image" src="./images/food-first.jpg" alt="snack" />
+        </div>
+        <div class="catalog__card">
+          <div class="card__info">
+            <h3 class="card__title">Соленья ассорти</h3>
+            <span class="card__price">320 ₽</span>
+          </div>
+          <img class="card__image" src="./images/food-second.jpg" alt="snack" />
+        </div>
+        <div class="catalog__card">
+          <div class="card__info">
+            <h3 class="card__title">Грибы маринованные</h3>
+            <span class="card__price">300 ₽</span>
+          </div>
+          <img class="card__image" src="./images/food-third.jpg" alt="snack" />
+        </div>
+        <div class="catalog__card">
+          <div class="card__info">
+            <h3 class="card__title">Сало домашнее с горчицей</h3>
+            <span class="card__price">320 ₽</span>
+          </div>
+          <img class="card__image" src="./images/food-fourth.jpg" alt="snack" />
+        </div>
+        <div class="catalog__card">
+          <div class="card__info">
+            <h3 class="card__title">Малосольная семга</h3>
+            <span class="card__price">390 ₽</span>
+          </div>
+          <img class="card__image" src="./images/food-fifth.jpg" alt="snack" />
+        </div>
+        <div class="catalog__card">
+          <div class="card__info">
+            <h3 class="card__title">Язык говяжий с хреном</h3>
+            <span class="card__price">350 ₽</span>
+          </div>
+          <img class="card__image" src="./images/food-sixth.jpg" alt="snack" />
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <a href="#" class="footer__logo">
+        <img src="./images/footer-logo.svg" alt="logo" />
+      </a>
+      <div class="footer__nav">
+        <div class="nav__col">
+          <div class="language">
+            <select class="language__select" name="select" id="select-lang">
+              <option value="english">English</option>
+              <option value="russian">Russian</option>
+            </select>
+          </div>
+          <span class="hashtag">UberEats</span>
+          <div class="social">
+            <a href="#" class="social__twitter"
+              ><img src="./images/twitter.svg" alt="twitter"
+            /></a>
+            <a href="#" class="social__instagram"
+              ><img src="./images/instagram.svg" alt="instagram"
+            /></a>
+            <a href="#" class="social__facebook"
+              ><img src="./images/facebook.svg" alt="facebook"
+            /></a>
+          </div>
+        </div>
+        <nav class="nav__col nav__col_center">
+          <a class="col__link" href="#">About UberEats</a>
+          <a class="col__link" href="#">Become a Delivery Partner</a>
+          <a class="col__link" href="#">Become a Restaurant Partner</a>
+        </nav>
+        <nav class="nav__col">
+          <a class="col__link" href="#">See all cities</a>
+          <a class="col__link" href="#">Pricing</a>
+          <a class="col__link" href="#">Help</a>
+          <a class="col__link" href="#">FAQs</a>
+        </nav>
+      </div>
+      <nav class="footer__copyright">
+        <a href="#" class="copyright__item">© 2017 Uber Technologies Inc.</a>
+        <a href="#" class="copyright__item">Privacy</a>
+        <a href="#" class="copyright__item copyright__item_terms">Terms</a>
+      </nav>
+    </footer>
+  </body>
+</html>
